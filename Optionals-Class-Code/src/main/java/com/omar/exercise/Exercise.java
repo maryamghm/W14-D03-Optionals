@@ -1,6 +1,7 @@
 package com.omar.exercise;
 
 import java.util.Optional;
+import java.util.Random;
 
 public class Exercise {
     public static void main(String[] args) {
@@ -38,6 +39,12 @@ public class Exercise {
         System.out.println(checkPrice(laptop1));
         System.out.println(checkPrice(laptop2));
         System.out.println(checkPrice(laptop3));
+
+        Random random = new Random();
+        System.out.println(random.nextInt(6));
+        System.out.println(random.nextInt(6));
+
+
 
 
     }
